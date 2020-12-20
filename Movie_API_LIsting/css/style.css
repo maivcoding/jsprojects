@@ -1,0 +1,7 @@
+#app .movie {
+  min-height: 350px;
+  width: 100%;
+  /* background: #ebebeb; */
+  margin: 15px 0;
+  padding: 10px 15px;
+}
