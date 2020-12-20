@@ -1,5 +1,5 @@
 ## OMDb API
-from [OMDb site] http://www.omdbapi.com/
+from [OMDb site](http://www.omdbapi.com/)
 
 ### Get Started
 - [x] - Install npm and dependecies
