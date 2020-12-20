@@ -1,0 +1,11 @@
+{
+  "name": "movie_api_listing",
+  "version": "1.0.0",
+  "description": "from [http://www.omdbapi.com/] http://www.omdbapi.com/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
