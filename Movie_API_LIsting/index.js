@@ -14,27 +14,28 @@ const app = document.querySelector('#app');
 searchForm.addEventListener('submit', (e) => {
   e.preventDefault();
   e.stopPropagation();
+  app.innerHTML = '';
 
   const search = document.querySelector('#inputSearch').value;
  
   fetch(`http://www.omdbapi.com/?apikey=${API_KEY}&s=${search}`)
     .then( res => res.json())
     .then( data => {
-      // console.log(data);
+      
       for(i = 0; i < data.Search.length; i++){
      
         let node = `
-        <img src="${data.Search[i].Poster}">
+        <div class="col-md-3">
+        <div class="movie">
+        <div class="poster" style="background:url('${data.Search[i].Poster}');background-size:cover;background-position:center top;">
+        </div>
         <h4>${data.Search[i].Title}</h4>
         <p>Year: ${data.Search[i].Year}</p>
+        </div>
+        </div>
         `;
-        let wrapper = document.createElement('div');
-        wrapper.className = 'col-md-4';
-        let div = document.createElement('div');
-        div.className = 'movie';
-        wrapper.appendChild(div);
-        div.innerHTML = node;
-        app.appendChild(wrapper);
+        
+        app.insertAdjacentHTML('afterbegin',node);
       }
     })
  
