@@ -1,6 +1,13 @@
 ## OMDb API
 from [OMDb site](http://www.omdbapi.com/)
 
+
+## Languages & Structure
+
+- JavaScript ES5
+- CSS
+- Movie API data
+
 ### Get Started
 - [x] - Register and get API key
 - [x] - Make a api call and log data 
