@@ -20,8 +20,8 @@ This section is a general starting section. I will update this section for now i
 <!-- CONTACT -->
 ## Contact
 
-[@maivcoding](https://www.instagram.com/maivcoding/) - mackr@maivcoding.com
+Instagram [@maivcoding](https://www.instagram.com/maivcoding/) - mackr@maivcoding.com
 
-[@maivcoding](https://www.youtube.com/channel/UCZjDhdvDcWt36yRS932aGCg) - youtube channel
+Youtube [YouTube](https://www.youtube.com/channel/UCZjDhdvDcWt36yRS932aGCg/)
 
-Project Link: [https://github.com/maivcoding/jsprojects](https://github.com/maivcoding/jsprojects)
+GitHub [https://github.com/maivcoding/](https://github.com/maivcoding/)
